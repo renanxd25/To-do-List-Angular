@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('./dist/scss/variables.scss');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    font-weight: 400;
+}
+
+body {
+    background: $primary-bacground-color;
+}
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+}
