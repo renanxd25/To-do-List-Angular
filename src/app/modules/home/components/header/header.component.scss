@@ -1,3 +1,13 @@
+/*  arquivo de estilo do header! Aqui estamos importando a variaveis de cores na pasta Dist e estilizando a TAG H1. 
+    colocamos um width de 100% pera ele pegar toda area disponivel na Section da pagina home onde ele esta sendo chamado.  
+    colocamos um padding 15px na vertical e 0 na horizontal.
+    colocamos um text-aling centralizado, para centralizar o titulo do header na section home
+    colocamos um fonte-size 18 onde descreva o tamanho da font do texto h1
+    definimos uma cor no color, que ela recebe uma variavel do arquivo vairables.scss
+    colocamos um background color onde recebe uma valor de uma outra cor do arquivo vairables.scss
+
+*/
+
 @import '../../../../../dist/scss/variables.scss';
 h1 {
     width: 100%;
