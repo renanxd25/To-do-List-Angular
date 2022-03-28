@@ -1,8 +1,18 @@
-/*arquivo de estilo do botão de deletar todos! Aqui estamos importando a variaveis de cores na pasta Dist e estilizando a TAG button.
-  Usamos um Host para alterar  a tag button especificamente.
-  Dentro do host usamos um display flex para colocar o elemento do botao em linha
-  
+/*
+    // DOCUMENTAÇÃO //
 
+    1 arquivo de estilo do botão de deletar todos! Aqui estamos importando a variaveis de cores na pasta Dist e estilizando a TAG button.
+        1.1 Usamos um Host para alterar  a tag button especificamente.
+        1.2 Dentro do host usamos um display flex para colocar o elemento do botao em linha.
+        1.3 alinhamos e centralizamos os itens do elemetnos a o align-items.
+        1.4 justificamos e centralizamos o botao com o justify-content.
+        1.5 colocamos uma margen de 20 pixels a cima do botao.
+        1.6 abrimos a classe butto para estilizar.
+            1.6.1   colocamos uma border: none para retirar a borda do botao
+            1.6.2   colocamos um border-radius de 50px para arredondar o botao
+            1.6.3   definimos um background   com uma variavel que tem um cor importada do arquivo Sass Variavels da pasta dist
+            1.6.4   definimos um tamanho horizontal de 60% no botao com o width.
+            1.6.5   e colocamos um padding de 10 px para que o conteudo interno do botao ficasse mais espaçoso.  
 */
 
 @import '../../../../../dist/scss/variables.scss';
