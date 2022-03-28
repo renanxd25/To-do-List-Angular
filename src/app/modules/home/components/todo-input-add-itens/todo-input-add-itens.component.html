@@ -1,1 +1,11 @@
+<!--    1   Aqui definimos uma tag input ela será necessaria para nos adicionamos os nomes dos nossos itens
+        2   Definimos nosso input como um tipo text para que possamos adicionar um texto
+        3   definimos um placeholder para auxiliar o usuario sobre o que ele precisar digitar.
+        4   adicionamos a diretiva ngModel que recebe uma variavel que esta no arquivo TypeScript e ela guarda o valor passado no input.
+        5   usamos o keyup.enter ele é uma funcao do Angular que é acionado quando apertamos o botao ENTER  no teclado, ele recebe e aciona um metodo que adiciona a lista de itens 
+            no corpo do projeto.
+
+
+-->
+
 <input type="text" placeholder="Digite sua nova Task aqui..." [(ngModel)]="addItemTaskList" (keyup.enter)="submitItemTaskList()">
