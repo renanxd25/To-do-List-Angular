@@ -1,7 +1,7 @@
 ![Alt text](https://raw.githubusercontent.com/renanxd25/To-do-List-Angular/Desenvolvimento/src/assets/todolist.gif?raw=true "Demonstração")
 
 
-# AppTodo
+# Lista de tarefas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
 
