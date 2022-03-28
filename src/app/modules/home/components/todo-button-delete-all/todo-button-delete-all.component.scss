@@ -1,3 +1,10 @@
+/*arquivo de estilo do botão de deletar todos! Aqui estamos importando a variaveis de cores na pasta Dist e estilizando a TAG button.
+  Usamos um Host para alterar  a tag button especificamente.
+  Dentro do host usamos um display flex para colocar o elemento do botao em linha
+  
+
+*/
+
 @import '../../../../../dist/scss/variables.scss';
 :host {
     display: flex;
