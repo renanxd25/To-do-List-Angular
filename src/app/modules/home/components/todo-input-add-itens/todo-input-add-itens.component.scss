@@ -1,3 +1,19 @@
+/*
+                //DOCUMENTACAO//
+    1 Aqui estamos importando a variaveis de cores na pasta Dist e estilizando a TAG input.
+    2 Usamos um Host para alterar  a tag input especificamente.
+        2.1 Usamos um display:flex para alinha os itens horizontalmetne.
+        2.2 Justificamos eles no centro com o justify-content: center.
+        2.3 Colocamos uma margem -20px no topo para ele sair da Div.
+    3 Abrimos a estilizacao da TAG input.
+        3.1 definimos o tamanho horizontal do input em 80% em relacao ao container que ele esta inserido, defimos isso usando o width. 
+        3.2 retiramos a borda do input com o border:none.
+        3.3 definimos um background colocando uma variavel da pasta de variaves dist no seletor background.
+        3.4 Centralizamos os textos com o Text-aligin: center.
+        3.5 Definimos um box-sizing:border-box para padronizar o tamanho do input.
+        3.6 usamos o seletor & do sass para definir um cor especifica para o texto do input.
+*/
+
 @import '../../../../../dist/scss/variables.scss';
 :host {
     display: flex;
