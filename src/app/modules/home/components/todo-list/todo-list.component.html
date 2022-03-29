@@ -1,3 +1,25 @@
+<!-- 1 Nesse component começamos adicionando uma tag Section para comportar todos nossas listas desordenadas, botões e inputs
+        
+        1.1 Dentro da Section adicionamos o ngClass que recebe uma validacao da classe loading, que é chamadado quando o valor do array é vazio.
+        
+        1.2 logo abaixo temos uma Ul que contem um ngIf que é chamado quando o array possui alguma coisa. Definimos isso atraves do tasklist.length setado para true.
+        
+        1.3 na li adicionamos a diretiva ngFor que contem a variavel item que recebe os valores da taskList que é um array declarado dentro do typeScript do componente
+            o array contem um interface que é modelo que tem um contrato com o valor do check e o nome da tarefa (task). Logo depois outra variavel e declarada a variavel I que recebe o index do array
+        
+            1.3.1 Dentro da li tem uma TAG input do tipo checkbox que contem um ngModel que amazena o valor do item do objeto taskList. Dentro desse input ele recebe o valor
+                  do item.checked que é um valor booleano, se ele tiver marcado é True se nao tiver é false.
+            
+            1.3.2 Logo abaixo temos outro input que do tipo text onde terá a lista de tarefas esse input contem um ngModel que recebe o valor da task por meio do item.task
+                  assim é possivel exibir o valor do nome da atividade na pagina que é armazenada dentro do Array. Logo apos chamamos o ngClass que aciona a classe checked assim
+                  que o item.checked é setada para True.
+
+            1.3.3 Logo abaixo temos um botao que possui um evento de click que recebe uma funcão de deleta itens! Essa funcão é o deleItemTaskList(i) que recebe o valor do index
+                  do objeto que foi declarado dento da li. Como ele é possivel deletar o item especifico da lista.
+      
+
+-->
+
 <section [ngClass]="{'loading': !taskList.length}">
     <ul *ngIf="taskList.length">
         <li *ngFor="let item of taskList; let i = index">
