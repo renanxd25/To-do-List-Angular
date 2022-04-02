@@ -18,7 +18,7 @@
                   do objeto que foi declarado dento da li. Como ele é possivel deletar o item especifico da lista.
      
     2 Adicionamos o component de adicionar itens na lista 
-    3 adicionaos  o component de botao para deletar todos os itens da lista  
+    3 adicionaos  o component de botao para deletar todos os itens da lista e também adicionamos o *ngIf="taskList.length" que da uma condição booleana para o botao mostrar que essa condição for true  
 -->
 
 <section [ngClass]="{'loading': !taskList.length}">
