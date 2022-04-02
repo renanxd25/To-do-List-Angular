@@ -22,8 +22,11 @@ export class TodoListComponent implements DoCheck {
   public setEmitTaskList(event: string){
     this.taskList.push({task: event, checked:false})
   }
-
+  //Funcao de deletar apenas um item da lista.
   public deleteItemTaskList(event:number){
+    /* Funcao Splice  deletar itens da lista, ele recebe um evento que seu valor é passado no botão do HTML, esse evento define a posição do item a ser deletado
+       e o segundo parametro do metodo define a quantidade de itens a ser deletado.  
+    */
     this.taskList.splice(event,1);
   }
 
